@@ -3,7 +3,7 @@ const FIVE_BILLION = 5000000000;
 const TWENTY_FIVE_K = 25000;
 const ONE_HUNDRED = 100;
 const TOKEN_NAME = "Esemble Token";
-const TOKEN_SYM = "Esm";
+const TOKEN_SYM = "ESM";
 
 contract("EsmToken", async accounts => {
   const FROM_ACCT = accounts[0];
@@ -95,7 +95,7 @@ contract("EsmToken", async accounts => {
   });
 
   it("delegated token transfers", async () => {
-    const token = await PikoToken.deployed();
+    const token = await EsmToken.deployed();
     const ADMIN = accounts[0];
     const FROM = accounts[2];
     const TO = accounts[3];

@@ -5,5 +5,5 @@ module.exports = function(deployer) {
   const name = "Esemble Token";
   const symbol = "ESM";
   const decimals = "1";
-  deployer.deploy(PikoToken, name, symbol, decimals, SUPPLY);
+  deployer.deploy(EsmToken, name, symbol, decimals, SUPPLY);
 };
