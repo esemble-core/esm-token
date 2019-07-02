@@ -1,0 +1,6 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/contracts/PikoTokenSale.sol
+/test/piko_token_sale_test.js
+/migrations/3_deploy_sale_contract.js
+/node_modules/
