@@ -5,6 +5,7 @@ const ONE_HUNDRED = 100;
 const TOKEN_NAME = "Esemble Token";
 const TOKEN_SYM = "ESM";
 
+
 contract("EsmToken", async accounts => {
   const FROM_ACCT = accounts[0];
   const TO_ACCT = accounts[1];
